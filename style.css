@@ -24,3 +24,21 @@ h1{
 .chamada-texto{
     margin-right: 5%;
 }
+.categoria{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+.categoria-videos{
+    overflow-x: auto;
+    display: flex;
+    gap: 10px;
+}
+.categoria-videos img{
+    height: 200px;
+    opacity: 0.5;
+}
+.categoria-videos img:hover{
+    opacity: 1.0;
+    border: 3px solid purple;
+}
